@@ -9,13 +9,31 @@ require('bootstrap');
 // import our styles
 import './stylesheets/base.scss';
 import _ from 'underscore';
+// add new pages here
 
 // on document load
 $(function(){
 
+  //kick off the App
   console.log('%c App Started', 'color:green');
 
-  // add some html content
+  //launch navbar if you have one
+  // navbar.init();
+
+  // This is the Router: which page are we on??
+  // switch(window.location.pathname){
+  // case '/pages/page.html': 
+  //   new pageController();
+  //   break;
+  // }
+
+
+  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  console.log('Impressed yet? Hire me now! www.laurielinz.com');
+  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  
+
+  // add some html content will not need if not using the template
   $('#root').html('<button class="btn btn-default" type="submit">Button</button>');
 
   // use a template

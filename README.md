@@ -2,12 +2,11 @@
 
 # To Use
 
-- Create a repo on Github
-- `git clone` that repo on your local computer
-- Copy the template files into the project folder
-- `git add .`
-- `git commit -m "copied template"`
-- `git push origin master`
+- Clone this repo for a start on a new project
+- To change the name to the name of your new project, from the command line type 'nano .git/config'
+- Change the name in that file and change it in your settings on GitHub
+- If you have created a heroku you will need to run heroku rename
+
 
 # To Launch
 
