@@ -7,6 +7,8 @@
 - Change the name in that file and change it in your settings on GitHub
 - If you have created a heroku you will need to run heroku rename
 
+Do not push or pull from this - clone and rename to use it as a template for projects
+
 
 # To Launch
 
